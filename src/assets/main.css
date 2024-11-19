@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    padding:0;
+    margin-top: 100px;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-Medium.ttf") format('truetype');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-Regular.ttf") format('truetype');
+    font-weight: 400;
+}
+
